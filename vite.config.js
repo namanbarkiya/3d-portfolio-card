@@ -7,11 +7,6 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: resolve(__dirname, "index.html"),
-                abhirajsakargaye: resolve(
-                    __dirname,
-                    "abhiraj-sakargaye/index.html"
-                ),
-                namanbarkiya: resolve(__dirname, "naman-barkiya/index.html"),
             },
         },
     },
