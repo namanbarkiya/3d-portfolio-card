@@ -61,7 +61,6 @@ const linkPos = {
         z: 0.03,
         name: "ClickableCircle1",
         link: "https://github.com/namanbarkiya",
-        link: "https://www.linkedin.com/in/naman-barkiya-015323200/",
     },
     circle2: {
         x: 0.05,
