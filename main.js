@@ -33,7 +33,7 @@ scene.add(camera);
 const canvas = document.querySelector(".webgl");
 const renderer = new THREE.WebGLRenderer({ canvas });
 renderer.setSize(sizes.width, sizes.height);
-renderer.setClearColor(0x222222, 1);
+renderer.setClearColor(0x030712, 1);
 renderer.setPixelRatio(2);
 
 // Load the 3D model
