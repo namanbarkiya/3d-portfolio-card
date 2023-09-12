@@ -49,7 +49,7 @@ const linkPos = {
         y: -0.4,
         z: 0.03,
         name: "ClickableBox2",
-        link: "https://namanbarkiya.netlify.app/",
+        link: "https://namanbarkiya.xyz",
     },
     circle1: {
         x: -0.46,
