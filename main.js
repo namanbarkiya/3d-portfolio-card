@@ -36,10 +36,6 @@ renderer.setSize(sizes.width, sizes.height);
 renderer.setClearColor(0x030712, 1);
 renderer.setPixelRatio(2);
 
-// Load the 3D model
-const loader = new GLTFLoader();
-let mesh;
-
 const linkPos = {
     box1: {
         x: 0.7,
@@ -77,6 +73,10 @@ const linkPos = {
         link: "mailto:naman.barkiya02@gmail.com",
     },
 };
+
+// Load the 3D model
+const loader = new GLTFLoader();
+let mesh;
 
 loader.load(
     "/naman_card.glb",
